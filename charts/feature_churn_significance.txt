@@ -1,0 +1,13 @@
+Feature Usage vs Churn — Chi-Square Significance Test
+============================================================
+Feature          With   Without     Chi2     p-value   Sig?
+------------------------------------------------------------
+rewrite         28.3%     40.8%   308.68   4.245e-69    Yes
+analyze         32.4%     37.1%    43.56   4.118e-11    Yes
+summarize       34.5%     35.3%     1.14      0.2847     No
+generate        34.3%     35.4%     2.47      0.1163     No
+translate       34.6%     35.1%     0.44      0.5087     No
+
+H0: feature usage and churn are independent (population: users who reached first AI output).
+Reject H0 at alpha=0.05 for: rewrite, analyze.
+No significant relationship for: summarize, generate, translate.

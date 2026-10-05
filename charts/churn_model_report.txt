@@ -1,0 +1,31 @@
+AI SaaS Churn Model — Report (explanatory, not production-ready)
+==================================================
+Population: 18,033 users who reached first AI output (the only users who can churn); churn rate 34.9%
+Model    : Logistic Regression (class_weight=balanced)
+Features : 11
+ROC-AUC  : 0.6313
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.58      0.65      2348
+           1       0.44      0.61      0.51      1259
+
+    accuracy                           0.59      3607
+   macro avg       0.58      0.59      0.58      3607
+weighted avg       0.63      0.59      0.60      3607
+
+
+Feature Importance (|coefficient|):
+────────────────────────────────────────
+  ch_organic             -0.3924  ↓ churn
+  uses_rewrite           -0.2896  ↓ churn
+  ch_referral            -0.2546  ↓ churn
+  active_months          +0.1500  ↑ churn
+  total_sessions         -0.1061  ↓ churn
+  uses_analyze           -0.1001  ↓ churn
+  plan_pro               +0.0340  ↑ churn
+  plan_ent               -0.0268  ↓ churn
+  n_features             +0.0259  ↑ churn
+  avg_duration           -0.0200  ↓ churn
+  avg_usage              -0.0025  ↓ churn

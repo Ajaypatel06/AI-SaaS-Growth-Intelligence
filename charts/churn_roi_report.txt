@@ -1,0 +1,20 @@
+Churn-ROI — Business Impact of Rewrite Adoption
+=======================================================
+
+Paying users without Rewrite : 4,768
+  Churn rate                  : 28.82%
+  MRR already lost to churn    : Rs.2,392,626
+
+Paying users with Rewrite     : 4,203
+  Churn rate                  : 18.89%
+  MRR already lost to churn    : Rs.1,437,206
+
+Churn-rate gap                : 9.9 percentage points
+Subscriptions saveable         : ~473
+Estimated MRR recovery         : Rs.838,502 / month
+Estimated ARR recovery         : Rs.10,062,023 / year
+
+Business read: if non-Rewrite paying users churned at the same rate as
+Rewrite adopters, the business would retain an estimated Rs.10,062,023
+in annual recurring revenue. This converts the product recommendation
+("make Rewrite the default first action") into a revenue-justified ask.
