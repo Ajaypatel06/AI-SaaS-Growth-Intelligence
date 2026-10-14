@@ -1,7 +1,3 @@
--- queries.sql
--- Part 1 (Q1-10, Q21-22): ai_saas.db
--- Part 2 (Q11-20): ab_test.db
-
 
 -- Q1: funnel overview
 -- note: Invited Team and Upgraded are two separate branches off First AI Output (neither requires the other)
